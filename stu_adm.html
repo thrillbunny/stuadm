@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息管理</title>
+    <link rel="stylesheet" type="text/css" href="stu_adm.css">
+    <script type="text/javascript" src="stu_adm.js"></script>
+</head>
+<body>
+    <div align="center">
+        <form name="stuadm" action="" onsubmit="return funs()"><!--action规定当提交表单时向何处发送表单数据-->
+            <table width="60%" bgcolor="" class="tabtop" align="center">
+                <tr>
+                    <td align="center" class="title" height="60">学生信息管理</td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td class="btbg font-center titfont">学生编号</td>
+                        <td class="btbg font-center"><input type="text" pattern="[A-Z|a-z|0-9]{10}" id="inputnumber" value="8888888888"></td>
+                    </tr>
+                    <tr>
+                        <td class="btbg font-center titfont">学生姓名</td>
+                        <td class="btbg font-center"><input type="text" maxlength="10" id="inputname" value="王大锤"></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <tr>
+                        <td class="btbg font-center titfont">电话号码</td>
+                        <td class="btbg font-center"><input type="tel" pattern="\d{11}" id="inputtel" value="13006171269"></td>
+                    </tr>
+                    <tr>
+                        <td class="btbg font-center titfont">邮箱地址</td>
+                        <td class="btbg font-center"><input type="email" maxlength="20" id="inputemail" value="123456789@qq.com"></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" value="提交"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

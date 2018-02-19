@@ -1,0 +1,31 @@
+.tabtop{
+    /*消除表格边距*/
+    border:0;
+    margin:0;
+    border-collapse:collapse;/*collapse  :　相邻边被合并*/
+    
+    margin-top:15px;
+}
+.tabtop td{
+    padding:0;
+    
+    background-color:#ffffff;
+	height:25px;
+	line-height:150%;
+}
+.title{
+    font-family: 微软雅黑;
+	font-size: 26px;
+	font-weight: bold;
+	color: #255E95;
+    border-bottom:ipx dashed #CCCCCC;
+}
+.titfont{
+    font-family:微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    color: #255E95;
+    background-color:#E9FAFF;
+}
+.btbg{background:#e9faff !important;}}
+.font-center{text-align:center;}
